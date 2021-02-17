@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titanium_X01BD.mk
+    $(LOCAL_DIR)/kangos_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    titanium_X01BD-eng \
-    titanium_X01BD-user \
-    titanium_X01BD-userdebug
+    kangos_X01BD-eng \
+    kangos_X01BD-user \
+    kangos_X01BD-userdebug
