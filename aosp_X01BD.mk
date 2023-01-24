@@ -9,20 +9,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common VoltageOS stuff
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common aospOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 2160
-
-# Voltage Build Type
-VOLTAGE_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_X01BD
+PRODUCT_NAME := aosp_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
