@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_X01BD.mk
+    $(LOCAL_DIR)/xtended_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_X01BD-eng \
-    voltage_X01BD-user \
-    voltage_X01BD-userdebug
+    xtended_X01BD-eng \
+    xtended_X01BD-user \
+    xtended_X01BD-userdebug
