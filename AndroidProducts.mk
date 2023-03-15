@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X01BD.mk
+    $(LOCAL_DIR)/banana_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_X01BD-eng \
-    xtended_X01BD-user \
-    xtended_X01BD-userdebug
+    banana_X01BD-eng \
+    banana_X01BD-user \
+    banana_X01BD-userdebug
