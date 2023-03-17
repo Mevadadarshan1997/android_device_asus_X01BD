@@ -15,11 +15,8 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 2160
 
-BOOTLEGGERS_BUILD_TYPE := Shishufied
-# Maintainer Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=DarshanMevada
-
+#Sony Dolby
+$(call inherit-product, vendor/dolby/config.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
