@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_X01BD.mk
+    $(LOCAL_DIR)/bliss_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_X01BD-eng \
-    banana_X01BD-user \
-    banana_X01BD-userdebug
+    bliss_X01BD-eng \
+    bliss_X01BD-user \
+    bliss_X01BD-userdebug
