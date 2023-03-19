@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Bootanimation
-TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_BOOT_ANIMATION_RES := 1080
 
 #Sony Dolby
 $(call inherit-product, vendor/dolby/config.mk)
