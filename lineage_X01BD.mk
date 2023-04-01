@@ -15,8 +15,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 2160
 
-# Voltage Build Type
-#VOLTAGE_BUILD_TYPE := OFFICIAL
+#Sony Dolby
+
+$(call inherit-product, vendor/dolby/config.mk)
+
+
+
+
+
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
