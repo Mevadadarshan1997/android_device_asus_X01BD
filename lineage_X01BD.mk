@@ -15,9 +15,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 2160
 
-#Sony Dolby
 
-$(call inherit-product, vendor/dolby/config.mk)
+
+
 
 
 
