@@ -16,7 +16,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 #Sony Dolby
-$(call inherit-product, vendor/dolby/config.mk)
+#$(call inherit-product, vendor/dolby/config.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
