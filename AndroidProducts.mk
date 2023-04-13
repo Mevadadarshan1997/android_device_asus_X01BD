@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_X01BD.mk
+    $(LOCAL_DIR)/derp_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_X01BD-eng \
-    bootleg_X01BD-user \
-    bootleg_X01BD-userdebug
+    derp_X01BD-eng \
+    derp_X01BD-user \
+    derp_X01BD-userdebug
