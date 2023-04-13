@@ -22,7 +22,7 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 TARGET_USES_BLUR := true
 #Sony Dolby
-$(call inherit-product, vendor/dolby/config.mk)
+#$(call inherit-product, vendor/dolby/config.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
