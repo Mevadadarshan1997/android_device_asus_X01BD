@@ -16,11 +16,11 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 2160
 #Derp stuff
 
-USE_LEGACY_BOOTANIMATION := true
+#USE_LEGACY_BOOTANIMATION := true
 
-EXTRA_UDFPS_ANIMATIONS := true
+#EXTRA_UDFPS_ANIMATIONS := true
 
-TARGET_USES_BLUR := true
+#TARGET_USES_BLUR := true
 #Sony Dolby
 #$(call inherit-product, vendor/dolby/config.mk)
 
@@ -28,7 +28,7 @@ TARGET_USES_BLUR := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_X01BD
+PRODUCT_NAME := evolution_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Zenfone Max Pro M2
