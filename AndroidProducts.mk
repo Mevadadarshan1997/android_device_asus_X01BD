@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_X01BD.mk
+    $(LOCAL_DIR)/evolution_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_X01BD-eng \
-    derp_X01BD-user \
-    derp_X01BD-userdebug
+    evolution_X01BD-eng \
+    evolution_X01BD-user \
+    evolution_X01BD-userdebug
