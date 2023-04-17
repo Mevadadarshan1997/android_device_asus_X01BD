@@ -35,5 +35,5 @@ PRODUCT_PACKAGES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
 
-#v4x
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk) 
+
+
